@@ -1,0 +1,7 @@
+#Rewrite rule
+RewriteEngine on
+
+RewriteRule ^Welcome$ index.php [NC,L]
+RewriteRule ^Login login.php [NC,L]
+RewriteRule ^Register register.php [NC,L]
+ErrorDocument 404 /404.php
